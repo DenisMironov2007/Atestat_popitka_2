@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+		<link rel="stylesheet" href="https://unicons.iconscout.com/release/v4.0.0/css/line.css">
+		<link rel="stylesheet" href="./Structyre.css">         
+		<title>Вход &amp; Регистрация</title>
+	</head>
+	<body>   
+		<div class="container">
+		   <div class="forms">
+			  <div class="form login">
+				 <span class="title">Вход</span>
+				 <form action="#">
+					 <div class="input-field">
+						<input type="text" placeholder="Почта" required>
+						<i class="uil uil-envelope icon"></i>
+					 </div>
+					 <div class="input-field">
+						<input type="password" class="password" placeholder="Пароль" required>
+						<i class="uil uil-lock icon"></i>
+						<i class="uil uil-eye-slash showHidePw"></i>
+					 </div>
+					 <div class="checkbox-text">
+						<div class="checkbox-content">
+						   <input type="checkbox" id="logCheck">
+						   <label for="logCheck" class="text">Запомнить меня.</label>
+						</div>
+						<a href="#" class="text">Забыли пароль?</a>
+					 </div>
+					 <div class="input-field button">
+						 <a href="index.html"><input type="button" value="Вход"></a>
+					 </div>
+				 </form>
+				 <div class="login-signup">
+					<span class="text">Не зарегестрированны? <a href="#" class="text signup-link">Зарегестрироваться.</a></span>
+				 </div>
+			  </div>
+			  <div class="form signup">
+				 <span class="title">Регистрация.</span>
+				 <form action="#">
+					 <div class="input-field">
+						<input type="text" placeholder="Введите имя" required>
+						<i class="uil uil-user"></i>
+					 </div>
+					 <div class="input-field">
+						<input type="text" placeholder="Введите вашу почту" required>
+						<i class="uil uil-envelope icon"></i>
+					 </div>
+					 <div class="input-field">
+						<input type="password" class="password" placeholder="Придумайте пароль" required>
+						<i class="uil uil-lock icon"></i>
+					 </div>
+					 <div class="input-field">
+						<input type="password" class="password" placeholder="Повторите пароль" required>
+						<i class="uil uil-lock icon"></i>
+						<i class="uil uil-eye-slash showHidePw"></i>
+					 </div>
+					 <div class="checkbox-text">
+						<div class="checkbox-content">
+						   <input type="checkbox" id="termCon">
+						   <label for="termCon" class="text">Я принял все условия.</label>
+						</div>
+					 </div>
+					 <div class="input-field button">
+						<input type="button" value="Сохранить">
+					 </div>
+				 </form>
+				 <div class="login-signup">
+					<span class="text">Зарегистрировались?<a href="#" class="text login-link">Войти</a></span>
+				 </div>
+			  </div>
+		   </div>
+		</div>
+		<script src="./Structure.js"></script>
+	</body>
+	</html>
