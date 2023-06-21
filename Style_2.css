@@ -1,0 +1,103 @@
+html {
+	margin: 0;
+	padding: 0;
+}
+
+header {
+	height: 150px;
+	width: 100%;
+	background-color: orange;
+	color: orange;
+}
+
+#logo {
+	position: absolute;
+	width: 118px;
+	height: 108px;
+	left: 11px;
+	top: 30px;
+	background: url(Logo.png.png);
+}
+
+nav ul {
+	font-size: 24px
+}
+
+nav ul li {
+	width: 150px;
+	height: inherit;
+	position: relative;
+	float: left;
+	left: 530px;
+}
+
+nav ul li a:hover {
+	background-color: red;
+}
+
+#Vhode {
+	position: absolute;
+	width: 84px;
+	height: 72px;
+	left: 1160px;
+	top: 30px;
+	background: url(Vhode.png);
+}
+
+.news {
+	width: 100%;
+	max-width: 280px;
+	margin: 30px
+}
+
+#news_2 {
+	background-color:#D9D9D9;
+	height: 400px;
+	width: 500px;
+	left: 500px;
+	overflow: auto;
+}
+
+.new img {
+	float: left;
+	margin: 25px 10px;
+}
+
+.content {
+	width: 70%;
+	height: 100%;
+	float:right;
+	margin: 0
+}
+
+.content title {
+	font-weight: bold;
+}
+
+#news2 {
+	background-color:#D9D9D9;
+	max-height: 400px;
+	left: 500px;
+	overflow: auto;
+	float: left;
+}
+.news-2 {
+	width: 100%;
+	max-width: 280px;
+	margin: 0px;
+}
+#IMG_2 {
+	background: url(News1.png);
+	left: 350px;
+	top: 500px;
+	height: 285px;
+	width: 394px;
+}
+
+#IMG_1{
+	left: 350px;
+	top: 500px;
+	height: 285px;
+	width: 394px;
+	background: url(Nov_1.png);
+}

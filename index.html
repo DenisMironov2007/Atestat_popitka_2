@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, max-initial-scale=1.0">
+    <style>
+		header {
+			height: 150px;
+			width: 100%;
+			background-color: orange;
+			color: orange;
+			}
+		html {
+			margin: 0;
+			padding: 0;
+		}
+		.dropbtn {
+			color: blueviolet;
+    		padding: 16px;
+			font-size: 16px;
+			border: none;
+			font-size: 24px;
+		}
+		.dropdown {
+			top: 0px;
+			display: inline-block;
+			width: 150px;
+			height: inherit;
+			position: relative;
+			float: left;
+			left: 530px;
+		}
+		.dropdown-content {
+			top: 10px;
+			left: 0px;
+			display: none;
+			position: absolute;
+			background-color: #f1f1f1;
+			min-width: 160px;
+			box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+			z-index: 1;
+		}
+		.dropdown-content a {
+			color: black;
+			padding: 12px 16px;
+			text-decoration: none;
+			display: block;
+		}
+		.dropdown-content a:hover {background-color: orange;}
+		.dropdown:hover .dropdown-content {display: block;}
+		#logo {
+			position: absolute;
+			width: 118px;
+			height: 108px;
+			left: 11px;
+			top: 30px;
+			background: url(Logo.png.png);
+		}
+		nav ul {
+			font-size: 24px
+		}
+		nav ul li {
+			width: 150px;
+			height: inherit;
+			position: relative;
+			float: left;
+			left: 530px;
+			padding: 16px;
+		}
+		nav ul li a:hover {
+			background-color: red;
+		}
+		#Vhode {
+			position: absolute;
+			width: 84px;
+			height: 72px;
+			left: 1160px;
+			top: 30px;
+			background: url(Vhode.png);
+		}
+		.news {
+			width: 100%;
+			max-width: 280px;
+			margin: 30px
+		}
+		news{
+			display: flex;
+		}
+		#news_2 {
+			background-color:#D9D9D9;
+			height: 150px;
+			left: 500px;
+		}
+		.new img {
+			float: left;
+			margin: 25px 10px;
+		}
+		.content {
+			width: 70%;
+			height: 100%;
+			float: left;
+			margin: 0
+		}
+		.content title {
+			font-weight: bold;
+		}
+		#h1 {
+			position: absolute;
+			width: 219px;
+			height: 210px;
+			left: 36px;
+			top: 21px;
+			font-family: 'Inter';
+			font-style: normal;
+			font-weight: 400;
+			font-size: 21px;
+			line-height: 30px;
+			text-align: center;
+			letter-spacing: 0.1em;
+			color: #000000;
+		}
+	</style>
+    <title>News_Prodaction</title>
+</head>
+<body>
+    <header>
+        <div id="logo"></div>
+        <nav>
+            <ul>
+                <div class="dropdown">
+					<div class="dropbtn">Меню</div>
+                     <div class="dropdown-content">
+					    <a href="#">Link 1</a>
+					    <a href="#">Link 2</a>
+					    <a href="#">Link 3</a>
+					 </div>
+                </div>
+                <li><a href="#">О нас</a></li>
+				<li><a href="Struct.html" title="Войдите&nbsp;в&nbsp;аккаунт&#46;">Войти</a></li>
+            </ul>
+        </nav>
+		<div id="Vhode" a href="#" title="Перейти в профиль."></div>
+    </header>
+    <content>
+        <div class="news">
+		   <div id="news_2">
+			   <div class="news title"><h1>Военные</h1><h2>Новости</h2></div>
+			   <div class="news description"></div>
+               <a class="news link" href="Novost_1.html">More....</a>
+		    </div>
+		</div> 
+        <div class="news">
+		   <div id="news_2">
+                 <div class="news title">News title</div>
+                    <div class="news description"></div>
+                    <a class="news link" href="#">More....</a>
+		   </div>
+		</div>
+		</content>
+</body>
+</html>
